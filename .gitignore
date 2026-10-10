@@ -1,0 +1,16 @@
+# Local Terraform working files
+.terraform/
+
+# State files can contain secrets: never commit them
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variable files may hold secrets or private values
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Environment and credentials
+.env
+*.pem
